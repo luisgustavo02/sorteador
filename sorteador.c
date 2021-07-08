@@ -15,8 +15,8 @@ int main(){
 	
 	char nome[qtdnomes][15];
 	
-	for(i=0;i<qtdnomes;i++){
-		printf("Digite o primeiro nome:\n");
+	for(i=1;i<=qtdnomes;i++){
+		printf("Digite o %iº nome:\n", i);
 		scanf(" %s", &nome[i]);
 	}
 	
